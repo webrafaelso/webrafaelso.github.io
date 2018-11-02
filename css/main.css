@@ -1,43 +1,82 @@
-body {
-    margin: 60px auto;
-    width: 70%;
+*{
+    /* padding: 0;
+    margin: 0; */
+      
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+
+
+.bg-banner{
+    
+    background: url(/img/img1.jpg) no-repeat center center fixed ;
+    background-size: 100% 100%;
+    height: 100vh;    /* fullscreen kahit walang content */
+    z-index: 0;
+    padding: 100px;
+ 
+    overflow-y: hidden;
+}
+.container{
+ 
+  
 }
 
-ul.posts li {
-    list-style: none;
+
+.content-banner{
+    text-align: center;
+   padding: 25px;
+    margin: auto;
+   width: 250px;
+   height: 250px;
+   z-index: 1;
+   /* rainbow */
+    border-radius: 10%;
+   border: 5px solid transparent;
+   border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+   border-image-slice: 1;
+   height: 350px;
+   width:300px;
+ 
+  
 }
+.content-banner img{
+    border-radius: 50%;
+
+    /* rainbow */
+     /* border: 2px solid transparent;
+    background-image: linear-gradient(to right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);  */
+    width: 200px;
+    height: 200px;
+     
+  
+}
+.content-banner h2,h4{
+    font-family: Raleway;
+    color:#f2f2f2;
+}
+.bg-nav-btn{
+    text-align: center;
+    padding-right: 40px;
+    margin-top: 30px;
+    font-family: Raleway;
+    font-size: 1.4rem;
+    color: #efffa6;
+}
+.bg-nav-btn ul li{
+    list-style: none;
+    display: inline-block;
+}
+.bg-nav-btn ul li a{
+    font-family: Raleway;
+    color: #f8f8f8 ;
+    text-decoration: none;   
+}
+.bg-nav-btn ul li a:hover{
+    border-bottom: 2px solid white;
+}
+
