@@ -13,7 +13,7 @@ body{
 
 .bg-banner{
     
-    background: url(../img/img1.jpg) no-repeat center center fixed ;
+    background: url(/img/img1.jpg) no-repeat center center fixed ;
     background-size: 100% 100%;
     height: 100vh;    /* fullscreen kahit walang content */
     z-index: 0;
@@ -80,3 +80,43 @@ body{
     border-bottom: 2px solid white;
 }
 
+@media screen and (max-width: 1000px) and (min-width: 610px) {
+    .content-banner{
+        
+        width: 500px;
+        height: 500px;
+        font-size:1.5rem;
+    }
+    .bg-banner{
+    padding-top: 50%;
+    }
+    .content-banner img{
+        width: 350px;
+        height: 350px;
+    }
+    .bg-nav-btn{
+      
+        font-size: 2.5rem;
+      
+    }
+}
+@media screen and (max-width: 600px) and (min-width: 400px){
+    .content-banner{
+        
+        width: 250px;
+        height: 250px;
+        font-size:1.5rem;
+    }
+    .bg-banner{
+    padding-top: 20px;
+    }
+    .content-banner img{
+        width: 250px;
+        height: 250px;
+    }
+    .bg-nav-btn{
+      
+        font-size: 1.5rem;
+      
+    }
+  }
