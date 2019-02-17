@@ -488,14 +488,14 @@ span.header-porfolio {
     padding: 10px;
   }
   wrap-intro {
-    line-height: 10px;
+    line-height: 5px;
   }
   .front {
     font-size: 1.8rem;
     text-shadow: 3px 3px skyblue;
   }
   .below {
-    font-size: .6rem;
+    font-size: .5rem;
   }
   .self {
     padding-left: 20px;
