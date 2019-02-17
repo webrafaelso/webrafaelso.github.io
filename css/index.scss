@@ -30,6 +30,7 @@ html,body{
     width: 100%;
     padding: 0;
     margin: 0;
+    overflow-x: none;
 }
 
 canvas{
@@ -114,7 +115,6 @@ h1, h2, h3, h4 ,h5 h6{
   
     margin: auto 0;
     width: 250px;
-
     height: 250px;
     border: 5px solid #c698ff;
     border-radius: 70%;
@@ -418,7 +418,7 @@ span.header-porfolio{
     font-size: 12px;
   }
   .col-3{
-    width: 100%;
+    width:70%;
   }
   .col-9{
     width: 100%;
@@ -431,19 +431,35 @@ span.header-porfolio{
     font-size: .8rem;
   }
   .wrap-about img {
+    height: 200px;
+    width: 200px;
+    }
+  .self{
+    padding-left: 15px;
+    padding-right: 15px;
   
- width: 150px;
- height: 150px;
-   
+  }
+  .head-row{
+    font-size: 1.5rem;
   }
   //CSS
   
 }
 @media only screen and (max-width: 500px) {
-  .wrap-about img {
+  .self{
+    padding-left: 20px;
+    padding-right: 15px;
   
-    width: 100px;
-    height: 100px;
-      
-     }
+  }
+  
+  .wrap-about{
+    padding: 10px;
+  }
+  .wrap-about img {
+  height: 150px;
+  width: 150px;
+  }
+     .col-3{
+      width:50%;
+    }
 }
