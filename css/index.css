@@ -482,12 +482,12 @@ span.header-porfolio {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
   wrap-intro {
     line-height: 30px;
   }
   .front {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-shadow: 3px 3px skyblue;
   }
   .below {
