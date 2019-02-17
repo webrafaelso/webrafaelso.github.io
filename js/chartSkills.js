@@ -1,5 +1,5 @@
 
-alert("Javascript is working!");
+// alert("Javascript is working!");
 
 
 var ctx = document.getElementById("myChart");

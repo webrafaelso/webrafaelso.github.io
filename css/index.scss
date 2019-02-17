@@ -248,8 +248,9 @@ border-top: 5px solid #06517c;
   min-width: 100px;
   
   height: auto;
-  width: 100%;
+  width: 90%;
   border-radius: 20%;
+  padding: 20px;
 }
 .wrap-porfolio{
   text-align: left;
@@ -446,6 +447,19 @@ span.header-porfolio{
   
 }
 @media only screen and (max-width: 500px) {
+  wrap-intro{
+    line-height: 30px;
+  }
+
+  .front{
+    font-size: 2rem;
+    text-shadow: 3px 3px skyblue;
+  }
+  .below{
+    font-size: .6rem;
+
+  }
+
   .self{
     padding-left: 20px;
     padding-right: 15px;
