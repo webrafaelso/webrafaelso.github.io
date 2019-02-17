@@ -114,8 +114,7 @@ h1, h2, h3, h4 ,h5 h6{
   
     margin: auto 0;
     width: 250px;
-    min-width: 200px;
-    min-width:  200px;
+
     height: 250px;
     border: 5px solid #c698ff;
     border-radius: 70%;
@@ -299,6 +298,10 @@ span.header-porfolio{
     border: 2px solid rgba(0, 0, 100, .5);
 }
 
+.first-col-lg, .second-col-lg, .third-col-lg{
+  height: 100%;
+  width: 100%;
+}
 
 
 
@@ -427,7 +430,20 @@ span.header-porfolio{
   .below{
     font-size: .8rem;
   }
-
+  .wrap-about img {
+  
+ width: 150px;
+ height: 150px;
+   
+  }
   //CSS
   
+}
+@media only screen and (max-width: 500px) {
+  .wrap-about img {
+  
+    width: 100px;
+    height: 100px;
+      
+     }
 }

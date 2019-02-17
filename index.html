@@ -7,15 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"></script>
-
+  <link rel="stylesheet" href="./node_modules/sal.js/dist/sal.css">
     <link rel="stylesheet" href="css/index.css">
     <title>Rafael So</title>
   
 </head>
 <body>
     <div class="parallax" style="background-image:url('imgs/bg.jpg');">
-        <div class="wrap-intro">      
+        <div
+        data-sal-duration="1200"
+        data-sal="slide-up"
+        data-sal-delay="300"
+        data-sal-easing ="ease-out-bounce"
+        
+        class="wrap-intro">      
             <span class="front">RAFAEL SO</span><br>
             <span class="below">Front-End Web Developer</span>
         </div>
@@ -23,11 +28,24 @@
     </div>
     
     <div class="dark-row">
-      <section class="wrap-about">       
-          <div class="self-img col-3">
+      <section class="wrap-about"> 
+                    
+          <div 
+          data-sal-duration="1000"
+          data-sal="slide-left"
+          data-sal-delay="300"
+          data-sal-easing ="ease-out-bounce"
+          
+          class="self-img col-3">
             <img class="imgSolo" src="imgs/img1.jpg" alt="" srcset="" >
          </div>
-            <div class="self col-9">  
+            <div
+            data-sal-duration="1000"
+            data-sal="slide-right"
+            data-sal-delay="800"
+            data-sal-easing ="ease-out-bounce"
+            
+            class="self col-9">  
                 <span class="head-row">Rafael So</span>
                 <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore harum facere officiis recusandae ex, itaque sapiente architecto voluptas hic dolor, molestiae accusamus dolorem natus repellendus! Reprehenderit, sunt error. Fugiat, nam.
                 </P>
@@ -35,8 +53,14 @@
         </section><!-- wrap-about -->
      
             <div class="wrap-info">  
-                <div class="first-col-lg  md-col-4">
-                    <div class="card-contact">
+                <div  class="first-col-lg  md-col-4" >
+                    <div
+                    data-sal-duration="1000"
+                    data-sal="slide-left"
+                    data-sal-delay="300"
+                    data-sal-easing ="ease-out-bounce"
+
+                    class="card-contact">
                         <h3>Contacts</h3>
                             <div class="wrap-contact">
                                 <span class="fas fa-envelope s-col-1"></span>
@@ -60,7 +84,13 @@
                                             <div class="hr-thin"></div>
                                         </div>
                             </div>
-                     <div class="card-general-skills">
+                     <div 
+                     data-sal-duration="1000"
+                     data-sal="slide-left"
+                     data-sal-delay="300"
+                     data-sal-easing ="ease-out-bounce"
+                     
+                     class="card-general-skills">
                             <h3>General Skill Distribution</h3>
                                 <div class="hr-thin-full"></div>
                                     <div class="wrap-general-skills">
@@ -71,7 +101,13 @@
 
 
     <div class="second-col-lg md-col-4">
-            <div class="card-skills">
+            <div 
+            data-sal-duration="1000"
+            data-sal="slide-left"
+            data-sal-delay="300"
+            data-sal-easing ="ease-out-bounce"
+
+            class="card-skills">
                     <div class="skills-title">    
                         <span class="header-skills"> Skills / Technologies</span>
                 </div>
@@ -136,7 +172,13 @@
                 </div>  <!-- card-skills -->
 
 
-                <div class="career-timeline">
+                <div
+                data-sal-duration="1000"
+                data-sal="slide-left"
+                data-sal-delay="300"
+                data-sal-easing ="ease-out-bounce"
+
+                class="career-timeline">
                     <h3>Career History</h3>
                     <div class="timeline">
  
@@ -184,7 +226,13 @@
 
 
         <div class="third-col-lg  md-col-4">  
-            <div class="card-porfolio">
+            <div 
+         data-sal-duration="1000"
+        data-sal="slide-left"
+        data-sal-delay="300"
+        data-sal-easing ="ease-out-bounce"
+
+            class="card-porfolio">
                 <div class="skills-title"> 
                         <span class="header-porfolio" > Porfolio Website</span>
                 </div>
@@ -213,12 +261,16 @@
 
 
 
-
-<!-- 
-        wrap-intro -->
         </div>
+
+        <!-- wrap-intro -->
 </div>  <!-- dark-row -->
-    <script src="js/chartSkills.js"></script>
+<script src="./node_modules/sal.js/dist/sal.js"></script>
+<script src="js/chartSkills.js"></script>
+
+<script>
+sal();
+</script>
   
   
 </body>
