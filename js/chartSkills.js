@@ -10,7 +10,7 @@ Chart.defaults.global.legend.display = false;
     var myChart = new Chart(ctx, {
     type: 'radar',
     data:{ 
-            labels: ["Responsive UI","Website Design","Image Editing","Web Animation","Database Management","Computer Literate"],
+            labels: ["Responsive UI","Website Design","Image Editing","Web Animation","Database SQL","Computer Literate"],
             datasets:[{
                 label: 'General Skills Describution',
                 data: [80,85,85,80,70,100],

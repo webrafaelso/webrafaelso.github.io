@@ -483,6 +483,10 @@ span.header-porfolio {
 }
 
 @media only screen and (max-width: 400px) {
+  .card-porfolio, .-card-about,
+  .card-contact, .card-general-skills {
+    padding: 10px;
+  }
   wrap-intro {
     line-height: 30px;
   }
