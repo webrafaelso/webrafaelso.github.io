@@ -219,6 +219,7 @@ img {
     // Grid Area
     .bio-image {
       grid-area: bioimage;
+      justify-self: center;
     }
 
     .bio {

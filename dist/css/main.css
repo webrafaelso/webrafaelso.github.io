@@ -299,7 +299,8 @@ img {
   grid-gap: 1.2rem; }
 
 #about-a .bio-image {
-  grid-area: bioimage; }
+  grid-area: bioimage;
+  justify-self: center; }
 
 #about-a .bio {
   grid-area: bio;
