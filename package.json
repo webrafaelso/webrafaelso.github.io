@@ -3,7 +3,7 @@
   "name": "webrafaelso.github.io",
   "version": "1.0.0",
   "description": "porfolio_website",
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
@@ -14,7 +14,7 @@
   "name": "webrafaelso.github.io",
   "version": "1.0.0",
   "description": "",
-  "main": "",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/webrafaelso/webrafaelso.github.io.git"
