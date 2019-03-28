@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "rafaelabout",
   "version": "1.0.0",
   "description": "porfolio_website",
@@ -10,5 +11,27 @@
   "license": "ISC",
   "devDependencies": { 
     "node-sass": "^4.11.0"
+=======
+  "name": "webrafaelso.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webrafaelso/webrafaelso.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webrafaelso/webrafaelso.github.io/issues"
+  },
+  "homepage": "https://github.com/webrafaelso/webrafaelso.github.io#readme",
+  "dependencies": {
+    "sal.js": "^0.5.0"
+>>>>>>> origin/master
   }
 }
