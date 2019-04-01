@@ -194,7 +194,13 @@ img {
   text-transform: uppercase; }
 
 #main-nav {
+ 
   display: flex;
+   position: fixed;
+  top: 0;
+  left: 1rem;
+  right: 1rem;
+  flex-shrink: 0;
   justify-content: space-between;
   padding-top: 1rem; }
   #main-nav ul {
